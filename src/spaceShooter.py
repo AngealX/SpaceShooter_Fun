@@ -1,11 +1,11 @@
 
-
+#Importing pygame and the random library so we can have astroids randomly output
 from __future__ import division
 import pygame
 import random
 from os import path
 
-## assets folder
+# Here we will grab the information from the asset and sound folder to input into the game
 img_dir = path.join(path.dirname(__file__), 'assets')
 sound_folder = path.join(path.dirname(__file__), 'sounds')
 
